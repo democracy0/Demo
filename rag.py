@@ -5,7 +5,7 @@ import threading
 import subprocess
 
 TOKEN = "7003192552:AAF8OLRd2cKv5T9geHnxDVKGOWWWSCQP8fo"  # Replace with your bot token
-ADMIN_ID = 7161052001  # Your admin ID
+ADMIN_ID = {"7161052001"}  # Your admin ID
 bot = telebot.TeleBot(TOKEN)
 
 users_energy = {}  # Stores user energy
